@@ -21,8 +21,4 @@ defmodule Inmana.Welcomer do
   defp evaluate(name, age) when age >= 18 do
     {:ok, "Welcome  #{name}"}
   end
-
-  defp evaluate(name, age) do
-    {:error, "You shall not pass #{name}"}
-  end
 end
